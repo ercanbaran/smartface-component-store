@@ -11,29 +11,48 @@ A store that contains JavaScript-to-Native smartface.io Component wirings.
 
 ## About
 
-TBD.
+This repository defines store bindings for [smartface.io](https://smartface.io) components to be mounted with [badem](http://github.com/jsbites/badem).
+
+* [smartface.io](https://smartface.io) is a cross-platform mobile application development and testing platfomr.
+* [badem](http://github.com/jsbites/badem) is a generic component mounter, that mounts components by consuming a **JSON** descriptor.
+
+If you want to define a new [smartface.io](https://smartface.io) component, or extend an existing one, this is the repository to fork.
 
 ## Installation
 
-TBD
+You can install this module via NPM and then use it in your [smartface.io](https://smartface.io) app:
+
+```
+npm install @volkan/smartface-component-store --save
+```
 
 ## Dependencies
 
-TBD
+This repository depends on [smartface.io](https://smartface.io) runtime.
+
+You need to use this repository inside a [**smartface.io Cloud IDE**](https://cloud.smartface.io/Home/Index), otherwise it will throw exceptions during initialization.
 
 ## Package Scripts
 
-TBD
+This repository comes with some helper npm scripts:
+
+* `npm run test`: Runs unit tests.
+* `npm run lint`: Verifies the correctness of the source code.
 
 ## Important Files and Folders
 
-TBD
+* **./index.md**: The main entry point.
+* **./bin**: Binaries that are used by the NPM scripts.
+* **./package.json**: The package definition.
+* **./CHANGELOG.md**: A log of what has been done since the last version.
+* **./CODE_OF_CONDUCT.md**: Basically tells the collaborators to be nice to each other.
+* **./README.md**: This very file.
 
 ## Wanna Help?
 
 Any help is more than appreciated.
 
-If you want to contribute to the source code fork this repository and create a pull request
+If you want to contribute to the source code fork this repository and create a pull request.
 
 In lieu of a formal styleguide, take care to maintain the existing coding style.
 
