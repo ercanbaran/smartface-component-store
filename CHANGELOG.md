@@ -7,7 +7,7 @@
 -----------------------------------------------------------------
 ```
 
-## smartface-component-store v0.2.0
+## smartface-component-store v0.4.0
 
 * Implemted CI integration.
 * Updated README.
