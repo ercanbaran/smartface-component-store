@@ -7,6 +7,11 @@
 -----------------------------------------------------------------
 ```
 
+## smartface-component-store v0.4.0
+
+* Implemted CI integration.
+* Updated README.
+* Added a smoke mocha test.
 
 ## smartface-component-store v0.2.0
 

@@ -64,6 +64,6 @@ store.Page = decorate( ( props ) => {
 /**
  *
  */
-store.TextButton = decorate( ( props ) =>  new SMF.UI.TextButton( props ) );
+store.TextButton = decorate( ( props ) => new SMF.UI.TextButton( props ) );
 
 export default store;
