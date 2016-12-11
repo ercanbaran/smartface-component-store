@@ -1,6 +1,6 @@
 {
   "name": "@volkan/smartface-component-store",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "A store that contains JavaScript-to-Native smartface.io Component wirings.",
   "main": "index.js",
   "scripts": {
