@@ -9,6 +9,8 @@
 
 import { whenReady as whenApplicationReady } from '@volkan/smartface-core-application';
 
+const testEnvironment = typeof process !== 'undefined' && process.env.NODE_ENV === 'test';
+
 const store = {};
 
 const SMF = global.SMF;
@@ -16,12 +18,12 @@ const Pages = global.Pages;
 
 const log = console.log;
 
-if ( typeof SMF === 'undefined' ) {
+if ( !testEnvironment && typeof SMF === 'undefined' ) {
     log( 'Cannot find the SMF namespace; make sure that you are using the smartface.io IDE.' );
     throw new Error( 'Cannot find the SMF namespace; make sure that you are using the smartface.io IDE.' );
 }
 
-if ( typeof Pages === 'undefined' ) {
+if ( !testEnvironment && typeof Pages === 'undefined' ) {
     log( 'Cannot find the Pages collection; make sure that you are using the smartface.io IDE.' );
     throw new Error( 'Cannot find the Pages collection; make sure that you are using the smartface.io IDE.' );
 }

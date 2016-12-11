@@ -1,6 +1,6 @@
 {
   "name": "@volkan/smartface-component-store",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A store that contains JavaScript-to-Native smartface.io Component wirings.",
   "main": "index.js",
   "scripts": {
@@ -26,5 +26,8 @@
   "bugs": {
     "url": "https://github.com/v0lkan/smartface-component-store/issues"
   },
-  "homepage": "https://github.com/v0lkan/smartface-component-store#readme"
+  "homepage": "https://github.com/v0lkan/smartface-component-store#readme",
+  "dependencies": {
+    "@volkan/smartface-core-application": "^0.6.0"
+  }
 }

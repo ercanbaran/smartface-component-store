@@ -7,8 +7,12 @@
 -----------------------------------------------------------------
 ```
 
+
+## smartface-component-store v0.2.0
+
+* Added `smartface-core-application` dependency.
+
 ## smartface-component-store v0.1.0
 
 * Initial version.
 * Provides `Application`, `Page`, and `TextButton`.
-*
